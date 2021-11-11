@@ -1,0 +1,160 @@
+  /* Reset body */
+  body{
+      margin: 0;
+      padding: 0;
+}
+  /* Typograhy */
+
+  h1{
+    text-align: center;
+  }
+ 
+  /* Navigation Below --------------------------------------------------------------------------------------------------- */
+
+  nav ul {
+    margin: 0 50px;
+    display: grid;
+    padding: 0;
+    list-style: none;
+    grid-template-columns: repeat(3, 1fr);
+    background: rgb(2, 22, 83);
+    font-size: 15pt;
+}
+
+
+
+nav{
+    background: rgb(2, 22, 83);
+    margin: 0 auto;
+    
+}
+
+/* A tags in nav */
+
+nav a {
+    background: rgb(2, 22, 83);
+    display: block;
+    text-decoration: none;
+    padding: 0.8rem;
+    text-align: center;
+    font-size: 1em;
+    color: white;
+
+}
+
+/* Hover affect */
+
+nav a:hover {
+    background-color: rgba(255,255,255,0.15);
+    cursor: pointer;
+
+}
+/* wrapper */
+
+.wrapper{
+    margin: 20px;
+}
+
+
+  /* Form Below --------------------------------------------------------------------------------------------------- */
+
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: darkslategray;
+  }
+
+  .color1{
+    background-color: grey;
+  }
+  .color2{
+      background-color: green;
+  }
+
+
+  table{
+      width: 100%;
+  }
+  table, th, td {
+    border:1px solid black;
+    text-align: center;
+  }
+  th{
+      font-size: 15pt;
+      background-color: rgb(2, 22, 83);
+      color: white;
+  }
+
+
+
+  .footer {
+    position: fixed;
+       left: 0;
+       bottom: 0;
+       width: 100%;
+       background: rgb(2, 22, 83);
+       color: white;
+       text-align: center;
+  }
+
+
+
+
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
+
+
+
+  
