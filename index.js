@@ -14,6 +14,7 @@ let btn = document.getElementById('submit');
  }
 */
 
+
 //removes form once its been submitted
 function myFunction() {
     var myobj = document.getElementById("form1");
@@ -21,6 +22,8 @@ function myFunction() {
     alert("Submitted");
   }
 
-
+  function changeColor(){
+    document.body.style.backgroundColor="green";
+}
 
 
