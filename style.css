@@ -3,11 +3,16 @@
       margin: 0;
       padding: 0;
 }
+
+#body {
+  color: red;
+}
   /* Typograhy */
 
   h1{
     text-align: center;
   }
+
  
   /* Navigation Below --------------------------------------------------------------------------------------------------- */
 

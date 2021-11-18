@@ -7,6 +7,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Individual Project</title>
     <link rel="stylesheet" href="style.css">
+     <script>
+      let toggled = false;
+      const toggle = () => {
+          toggled = !toggled;
+          const color = (toggled) ? 'blue' : 'yellow';
+          const backgroundColor = document.getElementById('backgroundColor');
+          header.style.backgroundColor = color;
+      };
+  </script>
+  <style>
+     
+
+      #header {
+          color: red;
+      }
+  </style>
+
 </head>
 
 <body>
@@ -15,7 +32,7 @@
         <ul>
             <li class="nav"><a href="index.html">Home</a></li>
             <li class="nav"><a href="">About Me</a></li>
-            <li class="nav"><a href="newsletter.html">Newsletter</a></li>
+            <li id="newsletter" class="nav"><a href="newsletter.html">Newsletter</a></li>
         </ul>
     </nav>
     <div class="wrapper">
@@ -46,10 +63,17 @@
             <h3>Abdullah Darsot</h3>
             <p class="title">Graduate Tester</p>
             <p>University of Central Lancashire</p>
-            <p><a href= "cv.pdf">CV</a></p>
+            <p><a id="cv" href= "cv.pdf">CV</a></p>
         </div>
 
-        
+        <select>
+            <option value=value1>Bread</option>
+            <option value=value2 selected>Milk</option>
+            <option value=value3>Cheese</option>
+        </select>
+       
+        <h1 id="header">Testing the Colour change</h1>
+        <button id="toggle" onclick="toggle()">change background colour</button>
 
     </div>
     <footer class="footer">
